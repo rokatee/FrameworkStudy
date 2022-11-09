@@ -1,0 +1,12 @@
+/*========================================
+	MemberDTO.java
+	- TBL_MEMBERLIST 테이블 레코드 참조
+=========================================*/
+
+package com.test.spr;
+
+public class MemberDTO
+{
+	
+	
+}

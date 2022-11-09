@@ -1,0 +1,13 @@
+package com.test.spr;
+
+public class MemberList
+{
+	private IDAO dao;
+
+	public void setDao(IDAO dao)
+	{
+		this.dao = dao;
+	}
+	
+	
+}

@@ -1,0 +1,16 @@
+/*====================================================
+ 	RecordViewImpl.java
+ 	- 클래스
+ 	- RecordView 인터페이스를 구현하는 클래스로 설계 
+=====================================================*/
+
+
+package com.test.spr;
+
+public class RecordViewImpl
+{
+	// 속성 구성 → 인터페이스 형태의 자료형 구성
+	private Record record;
+	
+	
+}

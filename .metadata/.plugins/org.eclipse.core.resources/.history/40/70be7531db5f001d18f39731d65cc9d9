@@ -1,0 +1,40 @@
+package com.test.spr;
+
+public class MemberList
+{
+	
+	private IDAO dao;
+	
+	public void setDao(IDAO dao)
+	{
+		this.dao = dao;
+	}
+	
+	/*
+	private OracleDAO dao;
+	
+	public MemberList()
+	{
+		dao = new OracleDAO();
+	}
+	*/
+	
+	public void print()
+	{
+		try
+		{
+			for (MemberDTO dto : dao.list())
+			{
+				System.out.printf("%14s, %4s, %15s, %15s\n"
+								, dto.getId(), dto.getName()
+								, dto.getTel(), dto.getEmail());
+			}
+			
+		} catch (Exception e)
+		{
+			System.out.println(e.toString());
+		}
+	}
+	
+	
+}

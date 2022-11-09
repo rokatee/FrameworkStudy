@@ -1,0 +1,8 @@
+package com.test.spr;
+
+import java.util.List;
+
+public interface IDAO
+{
+	List<MemberDTO> list() throws 
+}
