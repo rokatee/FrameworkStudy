@@ -32,7 +32,6 @@ FROM DUAL;
 @C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\dbmsobtk.sql
 --==>>
 /*
-/*
 Library DBMS_OBFUSCATION_LIB이(가) 컴파일되었습니다.
 Library CRYPTO_TOOLKIT_LIBRARY이(가) 컴파일되었습니다.
 Package DBMS_CRYPTO이(가) 컴파일되었습니다.
@@ -43,7 +42,7 @@ Grant을(를) 성공했습니다.
 Package DBMS_SQLHASH이(가) 컴파일되었습니다.
 SYNONYM DBMS_SQLHASH이(가) 생성되었습니다.
 */
-*/
+
 @C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\prvtobtk.plb
 --==>>
 /*
